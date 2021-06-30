@@ -1,11 +1,11 @@
 import './Header.scss';
 
-export default function Header() {
+export default function Header({menuOpen, setMenuOpen}) {
   return(
-    <div className="header">
+    <div className={"header " + (menuOpen && "active")}>
         <div className="wrapper">
           <div className="left-side">
-            <a href="#intro" className="logo">.sergey</a>
+            <a href="#intro" className="logo">sergey/dev.</a>
             <div className="item-container">
               <span>514 123 1234</span>
             </div>
@@ -15,7 +15,7 @@ export default function Header() {
           </div>
 
           <div className="right-side">
-            <div className="hamburger-menu">
+            <div className="hamburger-menu" onClick={()=>setMenuOpen(!menuOpen)}>
               <span className="top-line"></span>
               <span className="center-line"></span>
               <span className="bottom-line"></span>

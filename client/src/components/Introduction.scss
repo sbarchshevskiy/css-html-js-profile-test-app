@@ -1,3 +1,79 @@
 .intro{
   background-color: lightblue;
+  display: flex;
+
+  .left-part{
+    flex: 0.5;
+
+    .profile-image{
+      display: flex;
+      align-items: flex-end;
+      width:500px;
+      height: 500px;
+      background-color: salmon;
+      border-radius: 50%;
+      float: right;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .right-part{
+    flex: 0.5;
+    position: relative;
+
+    .content-wrapper{
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+      h1{
+        font-size: 50px;
+        margin: 10px 0;
+      }
+      h2{
+        font-size: 35px;
+      }
+      h3{
+        font-size: 30px;
+
+        span{
+          color: blueviolet;
+          font-size: inherit;
+
+          .ityped-cursor{
+            animation: blink 1s infinite;
+          }
+          @keyframes blink {
+            50%{
+              opacity: 1;
+            }
+            100%{
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+    a{
+      position: absolute;
+      bottom: 10px;
+      left: 20%;
+
+      img{
+        width: 55px;
+        height: 55px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+  }
 }
