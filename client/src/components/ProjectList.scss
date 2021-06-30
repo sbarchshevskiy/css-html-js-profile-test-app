@@ -1,0 +1,19 @@
+@import "../global.scss";
+
+h1{
+  overflow: hidden;
+}
+
+li{
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &:active{
+    background-color: $mainColor;
+    color: white;
+  }
+}

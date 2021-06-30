@@ -1,9 +1,12 @@
 .intro{
   background-color: lightblue;
   display: flex;
+  overflow: hidden;
 
   .left-part{
     flex: 0.5;
+    overflow: hidden;
+
 
     .profile-image{
       display: flex;
