@@ -21,9 +21,9 @@ function App() {
         setMenuOpen={setMenuOpen}
       />
         <div className="sections">
-          <Welcome/>
           <Introduction/>
           <Projects/>
+          <Welcome/>
           <Contact/>
         </div>
     </div>

@@ -59,42 +59,26 @@ export default function Projects() {
 
           <div className="item">
             <img
-              src="media/scheduler.png"
-              alt="scheduler-app"
+              src="media/tweeter.png"
+              alt="tweeter"
             />
-            <h3>Scheduler App</h3>
+            <h3>Tweeter</h3>
           </div>
 
           <div className="item">
             <img
-              src="media/scheduler.png"
-              alt="scheduler-app"
+              src="media/ruby.png"
+              alt="ruby-store"
             />
-            <h3>Scheduler App</h3>
+            <h3>Ruby Store</h3>
           </div>
 
           <div className="item">
             <img
-              src="media/scheduler.png"
-              alt="scheduler-app"
+              src="media/Orca.png"
+              alt="orca"
             />
-            <h3>Scheduler App</h3>
-          </div>
-
-          <div className="item">
-            <img
-              src="media/scheduler.png"
-              alt="scheduler-app"
-            />
-            <h3>Scheduler App</h3>
-          </div>
-
-          <div className="item">
-            <img
-              src="media/scheduler.png"
-              alt="scheduler-app"
-            />
-            <h3>Scheduler App</h3>
+            <h3>Orca</h3>
           </div>
 
 
