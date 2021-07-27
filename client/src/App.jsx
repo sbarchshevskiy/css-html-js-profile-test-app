@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Welcome from "./components/Welcome";
 import './App.scss';
 import Menu from "./components/Menu";
+import Examples from "./components/Examples";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Projects/>
           <Welcome/>
           <Contact/>
+          <Examples/>
         </div>
     </div>
   );
