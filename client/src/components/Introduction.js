@@ -16,8 +16,7 @@ export default function Introduction() {
   return (
     <div className="intro" id="intro">
       <div className="left-part">
-        <div className="profile-image">
-          <img src="media/guy.png" alt="guy"/>
+        <div className="air-balloon">
         </div>
       </div>
 
@@ -27,9 +26,11 @@ export default function Introduction() {
           <h1>My name is Sergey</h1>
           <h3>I am a <span ref={typedText}></span></h3>
         </div>
+        <div className="arrow">
         <a href="#projects">
           <img src="media/down-arrow.png" alt="see-projects"/>
         </a>
+        </div>
       </div>
     </div>
   )
