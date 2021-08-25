@@ -36,8 +36,10 @@ export default function Contact() {
             <input type="email" placeholder="user-mail"/>
             <textarea name="message" placeholder="Enter your message"></textarea>
             <button type="submit">Send</button>
-            {message && <span>Thanks, I'll be in touch with you shortly</span>}
           </form>
+          <div className="email-confirm">
+            {message && <span>Thanks, I'll be in touch with you shortly</span>}
+          </div>
         </div>
     </div>
   )
