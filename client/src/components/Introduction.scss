@@ -14,10 +14,15 @@
       justify-content: center;
       width: 500px;
       height: 600px;
-      background-color: coral;
+      background-color: lightblue;
       transform: rotate(20deg);
       border-radius: 100% 85% 0% 97% / 100% 100% 0% 88%;
       float: bottom;
+
+      p{
+        transform: rotate3d(1, 1, 1, -90deg);
+      }
+
 
       img{
         width: 100%;
@@ -27,6 +32,7 @@
   .right-part{
     flex: 0.5;
     position: relative;
+    margin-right: 200px;
     
     .arrow{
       display: flex;

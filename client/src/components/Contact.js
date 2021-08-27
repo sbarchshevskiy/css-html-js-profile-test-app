@@ -26,21 +26,22 @@ export default function Contact() {
   return(
     <div className="contact" id="contact">
         <div className="left-part">
+          <div className="right-part">
+            <h2>Contact</h2>
+            <form onSubmit={handleSubmit}>
+              <input type="text" placeholder="name"/>
+
+              <input type="email" placeholder="user-mail"/>
+              <textarea name="message" placeholder="Enter your message"></textarea>
+              <button type="submit">Send</button>
+            </form>
+            <div className="email-confirm">
+              {message && <span>Thanks, I'll be in touch with you shortly</span>}
+            </div>
+          </div>
           <img src="media/handshake.png" alt="contact"/>
         </div>
-        <div className="right-part">
-          <h2>Contact</h2>
-          <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="name"/>
 
-            <input type="email" placeholder="user-mail"/>
-            <textarea name="message" placeholder="Enter your message"></textarea>
-            <button type="submit">Send</button>
-          </form>
-          <div className="email-confirm">
-            {message && <span>Thanks, I'll be in touch with you shortly</span>}
-          </div>
-        </div>
     </div>
   )
 }

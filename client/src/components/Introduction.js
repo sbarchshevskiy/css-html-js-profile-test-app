@@ -10,7 +10,7 @@ export default function Introduction() {
     init(typedText.current, {
       showCursor: true,
       backDelay: 1500,
-      strings: ["developer", "problem solver", "programmer", "tech enthusiast", "content creator"]
+      strings: ["a developer", "a problem solver", "a programmer", "a tech enthusiast", "a content creator"]
     })
   }, [])
   return (
@@ -22,9 +22,9 @@ export default function Introduction() {
 
       <div className="right-part">
         <div className="content-wrapper">
-          <h2>Hello,</h2>
-          <h1>My name is Sergey</h1>
-          <h3>I am a <span ref={typedText}></span></h3>
+          <h2>Hey there!</h2>
+          <h1>I'm Sergey</h1>
+          <h3><span ref={typedText}></span></h3>
         </div>
         <div className="arrow">
         <a href="#projects">

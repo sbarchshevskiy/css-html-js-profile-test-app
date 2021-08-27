@@ -5,12 +5,12 @@ export default function Header({menuOpen, setMenuOpen}) {
     <div className={"header " + (menuOpen && "active")}>
         <div className="wrapper">
           <div className="left-side">
-            <a href="#intro" className="logo">sergey/dev.</a>
+            <a href="#intro" className="logo">@sergey.barchshevskiy</a>
             <div className="item-container">
-              <span>514 123 1234</span>
+              <span>tel:</span>
             </div>
             <div className="item-container">
-              <span>sergey@sergey.com</span>
+              <span>email:</span>
             </div>
           </div>
 

@@ -9,7 +9,9 @@
   overflow: hidden;
 
   h1{
-    font-size: 50px;
+    font-size: 80px;
+    margin-top: 200px;
+    padding-bottom: 20px;
 
   }
   ul{
@@ -35,7 +37,7 @@
     display: flex;
     //flex-wrap: wrap;
     align-items: center;
-    width: 70%;
+    width: 80%;
     overflow: hidden;
 
     .item{
