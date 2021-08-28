@@ -1,16 +1,21 @@
+
 .intro{
   background-color: #FAE4C8;
   display: flex;
   overflow: hidden;
 
-  .curve{
-    display: block;
-    background: blue;
-    color: white;
-    text-align: center;
-    z-index: -1;
-
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
   }
+
+  //.curve{
+  //  display: block;
+  //  background: blue;
+  //  color: white;
+  //  text-align: center;
+  //  z-index: -1;
+  //
+  //}
 
   .left-part{
     flex: 0.5;
@@ -23,7 +28,7 @@
       justify-content: center;
       width: 500px;
       height: 600px;
-      background-color: lightblue;
+      background-color: #FAE4C8;
       transform: rotate(20deg);
       border-radius: 100% 85% 0 97% / 100% 100% 0% 88%;
       float: bottom;

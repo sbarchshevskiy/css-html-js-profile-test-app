@@ -7,13 +7,14 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
+    max-height: 900px;
 
 
     img{
       height: 75%;
       width: 75%;
       max-width: 850px;
-      min-width: 850px;
+      min-width: 80%;
     }
 
   }
