@@ -1,0 +1,21 @@
+@import "../global.scss";
+
+
+.curve{
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  transition: all 1s ease;
+  color: #0099ff;
+
+
+
+  &.active {
+    background-color: #0099ff;
+    color: $mainColor;
+  }
+}
+
+//background-color: #0099ff;
+//color: $mainColor;

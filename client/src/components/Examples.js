@@ -1,5 +1,15 @@
 import './Examples.scss'
+import {useState} from "react";
 export default function Examples(){
+
+  const [rightMove, setRightMove] = useState(null);
+
+  const moveArrowRight = () => {
+    console.log('arrow right')
+    setRightMove(1)
+    console.log(rightMove)
+  }
+
   return(
     <div className="examples">
       <div className="slider">
@@ -21,7 +31,7 @@ export default function Examples(){
           </div>
       </div>
       <img src="media/arrow-next.png" className="arrow left" alt="" />
-      <img src="media/arrow-next.png" className="arrow right" alt="" />
+      <img src="media/arrow-next.png" className="arrow right" alt="" onClick={moveArrowRight} />
 
     </div>
   )
