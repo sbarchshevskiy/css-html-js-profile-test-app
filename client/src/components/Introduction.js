@@ -15,23 +15,26 @@ export default function Introduction() {
     })
   }, [])
   return (
-      <div className="intro" id="intro">
-        <div className="left-part">
-          <div className="air-balloon">
-          </div>
-        </div>
-        <div className="right-part">
-          <div className="content-wrapper">
-            <h2>Hey there!</h2>
-            <h1>I'm Sergey</h1>
-            <h3><span ref={typedText}></span></h3>
-          </div>
-          <div className="arrow">
-            <a href="#projects">
-              <img src="media/down-arrow.png" alt="see-projects"/>
-            </a>
-          </div>
+
+    <div className="intro" id="intro">
+      <div className="left-part">
+        <div className="air-balloon">
         </div>
       </div>
+
+      <div className="right-part">
+        <div className="content-wrapper">
+          <h2>Hey there!</h2>
+          <h1>I'm Sergey</h1>
+          <h3><span ref={typedText}></span></h3>
+        </div>
+        <div className="arrow">
+        <a href="#projects">
+          <img src="media/down-arrow.png" alt="see-projects"/>
+        </a>
+        </div>
+      </div>
+    </div>
+
   )
 }

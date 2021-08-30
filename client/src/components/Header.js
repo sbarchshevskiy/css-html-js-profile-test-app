@@ -1,15 +1,15 @@
 import './Header.scss';
 import {MenuOpen} from "@material-ui/icons";
-import CurveHeader from "./CurveHeader";
+// import CurveHeader from "./CurveHeader";
 import React from "react";
 
 export default function Header({menuOpen, setMenuOpen}) {
   return (
     <div className={"curve " + (!menuOpen && "active")}>
-      <CurveHeader
-        menuOpen={menuOpen}
-        setMenuOpen={setMenuOpen}
-      />
+      {/*<CurveHeader*/}
+      {/*  menuOpen={menuOpen}*/}
+      {/*  setMenuOpen={setMenuOpen}*/}
+      {/*/>*/}
       <div className={"header " + (menuOpen && "active")}>
 
 

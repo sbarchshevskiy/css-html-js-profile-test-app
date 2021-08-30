@@ -7,26 +7,32 @@ import Welcome from "./components/Welcome";
 import './App.scss';
 import Menu from "./components/Menu";
 import Examples from "./components/Examples";
+import CurveHeader from "./components/CurveHeader";
 
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
+
+
       <Header
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
       />
+
       <Menu
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
       />
+
         <div className="sections">
+
           <Introduction/>
-          <Projects/>
+          <Examples/>
+          {/*<Projects/>*/}
           {/*<Welcome/>*/}
           <Contact/>
-          {/*<Examples/>*/}
         </div>
     </div>
   );

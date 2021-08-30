@@ -1,21 +1,9 @@
 
 .intro{
-  background-color: #FAE4C8;
+  background-color: lightblue;
   display: flex;
   overflow: hidden;
 
-  .scrollbar-hidden::-webkit-scrollbar {
-    display: none;
-  }
-
-  //.curve{
-  //  display: block;
-  //  background: blue;
-  //  color: white;
-  //  text-align: center;
-  //  z-index: -1;
-  //
-  //}
 
   .left-part{
     flex: 0.5;
@@ -32,7 +20,6 @@
       transform: rotate(20deg);
       border-radius: 100% 85% 0 97% / 100% 100% 0% 88%;
       float: bottom;
-      //overflow: hidden;
 
       p{
         transform: rotate3d(1, 1, 1, -90deg);
@@ -48,7 +35,7 @@
     flex: 0.5;
     position: relative;
     margin-right: 200px;
-
+    
     .arrow{
       display: flex;
       align-items: flex-end;
@@ -57,7 +44,7 @@
     .content-wrapper{
       flex-direction: column;
       justify-content: center;
-      //align-items: left;
+      //align-items: ;
       width: 100%;
       height: 100%;
       display: flex;
